@@ -41,7 +41,7 @@ const Navbar = ({ Auth, setAuth }) => {
                             borderBottom: isActive('/book-event') ? '2px solid #fff' : 'none',
                         }}
                     >
-                        Book Events
+                        borrow Books
                     </Button>
 
                     <Button
