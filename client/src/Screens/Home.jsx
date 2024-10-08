@@ -60,7 +60,7 @@ const Home = ({Auth}) => {
     return (
         <Container maxWidth="lg" style={{ marginTop: '2rem' }}>
             <Typography variant="h4" gutterBottom align="center">
-                Upcoming Events
+                All Books
             </Typography>
 
             {events?.length === 0 ? (
