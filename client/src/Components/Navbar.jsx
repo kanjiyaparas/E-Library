@@ -19,7 +19,7 @@ const Navbar = ({ Auth, setAuth }) => {
             <Container maxWidth="lg">
                 <Toolbar>
                     <Typography variant="h6" style={{ flexGrow: 1 }}>
-                        My Blog App
+                        E-Library
                     </Typography>
 
                     <Button
@@ -52,7 +52,7 @@ const Navbar = ({ Auth, setAuth }) => {
                             borderBottom: isActive('/your-event') ? '2px solid #fff' : 'none',
                         }}
                     >
-                        Your Events
+                        Your Book Event
                     </Button>
 
                     {Auth && Auth._id ? (
